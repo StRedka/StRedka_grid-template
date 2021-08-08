@@ -1,0 +1,17 @@
+%container {
+  max-width: $ul;
+  margin: auto;
+  padding-right: $gap;
+  padding-left: $gap;
+}
+
+%h2 {
+  margin-top: 0;
+  margin-bottom: 48px;
+}
+
+%button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

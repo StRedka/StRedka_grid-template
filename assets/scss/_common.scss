@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+input {
+  outline: none;
+}
+
+html {
+  overflow-y: scroll;
+
+  letter-spacing: 0.1em;
+
+  color: $color-gray;
+
+  font-family: $font-main;
+  font-size: $font-size;
+}
+
+h1 {
+  letter-spacing: 0.08em;
+
+  font-family: $font-header;
+  font-weight: 300;
+  line-height: 1.2em;
+
+  @include lg-min {
+    font-size: 3.75rem;
+  };
+  @include lg-md {
+    font-size: 2.5rem;
+  };
+  @include md {
+    font-size: 1.875rem;
+  };
+}
+
+h2 {
+  letter-spacing: 0.1em;
+
+  color: $color-primary;
+
+  font-family: $font-header;
+  font-size: 2.5rem;
+  line-height: 1.2em;
+}
+
+h3 {
+  letter-spacing: 0.05em;
+
+  color: $color-gray;
+
+  font-size: 1.125rem;
+}
+
+a {
+  text-decoration: none;
+
+  color: $color-light;
+  background-color: transparent;
+}
+
+p {
+  color: $color-gray;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: background-color 0.5s;
+  letter-spacing: 0.1em;
+
+
+
+
+  &--head {
+    border: 2px solid $color-light;
+    background-color: rgba(255, 255, 255, 0.1);
+
+    @include lg-min {
+      min-width: 250px;
+      height: 60px;
+
+      font-size: 1.125rem;
+    }
+    @include lg-md {
+      min-width: 200px;
+      height: 50px;
+    }
+    @include md {
+      min-width: 170px;
+      height: 40px;
+
+      letter-spacing: 0.8px;
+    }
+  }
+
+  &--view {
+    height: 60px;
+
+    border: 2px solid $color-primary;
+    background-color: rgba($color-primary, 0.8);
+
+    font-size: 1.125rem;
+
+    @include sm-min {
+      width: 350px;
+    }
+    @include sm {
+      width: 100%;
+      max-width: auto;
+    }
+  }
+
+  &:hover,
+  &:focus {
+    background-color: $color-accent;
+  }
+}

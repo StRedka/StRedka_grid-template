@@ -1,0 +1,24 @@
+@import "../../libs/normalize.css/normalize.scss";
+@import "skin";
+@import "variables";
+@import "mixins";
+@import "mixins-media";
+@import "extends";
+
+@import "common";
+
+@import "header/header";
+@import "header/header-overlay";
+@import "header/header-menu";
+@import "header/header-logo";
+@import "header/header-nav";
+@import "header/header-content";
+
+@import "sections/section-skills";
+@import "sections/section-description";
+@import "sections/section-form";
+@import "sections/section-posts";
+
+@import "footer";
+
+// first coomit
