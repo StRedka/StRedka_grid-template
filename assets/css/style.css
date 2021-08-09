@@ -383,6 +383,7 @@ input {
 
 html {
   overflow-y: scroll;
+  overflow-x: hidden;
   letter-spacing: 0.1em;
   color: #637588;
   font-family: "Roboto", sans-serif;
