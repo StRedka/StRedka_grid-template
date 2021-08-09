@@ -110,7 +110,7 @@ p {
     }
     @include sm {
       width: 100%;
-      max-width: auto;
+      min-width: auto;
     }
   }
 

@@ -1270,7 +1270,7 @@ header {
 @media (max-width: 575.8px) {
   .btn--view {
     width: 100%;
-    max-width: auto;
+    min-width: auto;
   }
   .header-content__btns {
     -webkit-box-align: center;
